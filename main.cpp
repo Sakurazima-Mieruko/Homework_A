@@ -3,6 +3,6 @@
 
 int main()
 {
-    
+    printf("amns");
     return 0;
 }
