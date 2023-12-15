@@ -3,7 +3,8 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<string.h>
+#include<string>
+#include<iostream>
 
 
 #pragma warning(disable:4996)
@@ -33,7 +34,8 @@ void insert_Node_int(Node_int* list, int number);
 
 //双向头结点链表
 Node_bi* init_Node_bi(int index);
-void insert_Node_bi(Node_bi* list, int index);
+void insert_Node_bi_down(Node_bi* list, int index);
+void insert_Node_bi_right(Node_bi* list, int index);
 
 //二维字符数组链表
 
