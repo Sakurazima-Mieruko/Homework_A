@@ -27,6 +27,9 @@
     <ClCompile Include="GUI_main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h">
@@ -38,5 +41,64 @@
     <ClInclude Include="GUI_main.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Button_1_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_1_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_2_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_2_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_3_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_3_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_4_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\Button_4_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\clear-green-button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\exit.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\help-blue-button.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\lock.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\login_background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\pexels-jack-redgate-3049327.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\pexels-morais-90633.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\robert-arnar-AJa4jiJ6DJs-unsplash.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\search.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resource\stop.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

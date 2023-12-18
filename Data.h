@@ -38,7 +38,7 @@ void insert_Node_bi_down(Node_bi* list, int index);
 void insert_Node_bi_right(Node_bi* list, int index);
 
 //二维字符数组链表
-
-
+Node_char* init_Node_char(int number);
+void insert_Node_char(Node_char* list, int number);
 
 #endif // GRAPH_H

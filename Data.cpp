@@ -59,4 +59,29 @@ void insert_Node_bi_right(Node_bi* list, int index) {
 }
 
 //二维字符数组链表：
+Node_char* init_Node_char(int number) {
+	Node_char* newnode = (Node_char*)malloc(sizeof(Node_char));
+	newnode->data = (char**)malloc(sizeof(char*) * number);
+	for (int i = 0; i < number; i++) {
+		newnode->data[i] = (char*)malloc(sizeof(char) * number);
+	}
 
+	newnode->src = -1;
+	newnode->des = -1;
+	for (int i = 0; i < number; i++) {
+		for (int j = 0; j < number; j++) {
+			newnode->data[i][j] = -1;
+		}
+	}
+	newnode->next = NULL;
+	return newnode;
+}
+
+void insert_Node_char(Node_char* list, int number) {
+	Node_char* current = list;
+	while (current->next) {
+		current = current->next;
+	}
+	Node_char* newnode = init_Node_char(number);
+	current->next = newnode;
+}

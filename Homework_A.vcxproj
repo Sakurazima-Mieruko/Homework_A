@@ -43,14 +43,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -131,11 +131,33 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="GUI_main.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GUI_main.h" />
+    <ClInclude Include="UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Button_1_1.png" />
+    <Image Include="Resource\Button_1_2.png" />
+    <Image Include="Resource\Button_2_1.png" />
+    <Image Include="Resource\Button_2_2.png" />
+    <Image Include="Resource\Button_3_1.png" />
+    <Image Include="Resource\Button_3_2.png" />
+    <Image Include="Resource\Button_4_1.png" />
+    <Image Include="Resource\Button_4_2.png" />
+    <Image Include="Resource\clear-green-button.png" />
+    <Image Include="Resource\exit.png" />
+    <Image Include="Resource\help-blue-button.png" />
+    <Image Include="Resource\lock.png" />
+    <Image Include="Resource\login_background.jpg" />
+    <Image Include="Resource\pexels-jack-redgate-3049327.jpg" />
+    <Image Include="Resource\pexels-morais-90633.jpg" />
+    <Image Include="Resource\robert-arnar-AJa4jiJ6DJs-unsplash.jpg" />
+    <Image Include="Resource\search.png" />
+    <Image Include="Resource\stop.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
